@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   root 'home#form'
   get 'home/form'
   post 'home/form'
+  get 'home/index'
+  post 'home/index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
